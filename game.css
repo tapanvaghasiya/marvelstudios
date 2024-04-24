@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont1{
+   width: 100%;
+}
+
+.cont1 img:hover{
+   transition: 1s;
+   transform: scale(0.9);
+   cursor: pointer;
+}

@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Movies</title>
+    <link rel="stylesheet" href="game.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-color: #232323;
+	background-position: 100%;
+}
+/*Page Section, Video*/
+section {
+	position: absolute;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}  
+
+/*Header*/
+nav{
+	background-color: #f5f5f5;
+	position: fixed;
+	color: #000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10;
+}
+
+header .logo{
+	position: relative;
+	max-width: 150px;
+}
+
+header ul{
+	position: relative;
+	display: flex;
+}
+
+header ul li{ list-style: none; }
+
+header ul li a{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 100;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+/*Content Text*/
+.content{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.content .textBox{
+	position: relative;
+	max-width: 700px;
+}
+
+.content .textBox h1{
+	font-size: 4em;
+	line-height: 2.4em;
+	font-weight: 600;
+	word-spacing: 20px;
+	line-height: 100px;
+}
+
+.content .textBox h1 span{
+	color: red;
+	text-transform: uppercase;
+	font-size: 2.3em;
+	font-weight: 900;
+}
+.content .textBox h2{
+	font-size: 3em;
+	line-height: 1.4em;
+	font-weight: 600;
+	word-spacing: 20px;
+	line-height: 100px;
+}
+
+.content .textBox h2 span{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 900;
+}
+</style>
+	<link rel="icon" href="img/logo-name.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+    <section>
+		<header>
+            <nav>
+			<a href="https://www.marvel.com/"><img src="Images/logo-name.png" class="logo" alt="logo"></a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+			    <li><a href="index.html">Home</a></li>
+                <li><a href="character.html">Characters</a></li>
+                <li><a href="game.html">Games</a></li>
+				<li><a href="movie.html">Movies</a></li>
+			    <li><a href="about.html">About us</a></li>
+				
+			</ul>
+            </nav>
+		</header>
+    <div class="cont1">
+        <a href="moviepages/m1.html"><img src="img/movie-1.jpg" alt="" style="width: 220px;height: 320px;margin-left: 185px;"></a>
+        <a href="moviepages/m2.html"><img src="img/movie-2.jpeg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m3.html"><img src="img/movie-3.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+		<a href="moviepages/m4.html"><img src="img/movie-4.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m5.html"><img src="img/movie-5.jpg" alt="" style="width: 220px;height: 320px;margin-left: 185px;"></a>
+        <a href="moviepages/m6.html"><img src="img/movie-6.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m7.html"><img src="img/movie-7.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m8.html"><img src="img/movie-8.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m9.html"><img src="img/movie-9.jpg" alt="" style="width: 220px;height: 320px;margin-left: 185px;"></a>
+        <a href="moviepages/m10.html"><img src="img/movie-10.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m11.html"><img src="img/movie-11.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <a href="moviepages/m12.html"><img src="img/movie-12.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"></a>
+        <!-- <img src="img/g18.jpg" alt="" style="width: 220px;height: 320px;margin-left: 185px;">
+        <img src="img/g19.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;">
+        <img src="img/g20.jpg" alt="" style="width: 220px;height: 320px;margin-left: 13px;"> -->
+    </div>
+  
+</body>
+</html>
+
